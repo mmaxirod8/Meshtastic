@@ -1,4 +1,4 @@
-# Meshtastic Technology --> How it works? What we use? How do we start?
+# 🌐 Meshtastic Technology --> How it works? What we use? How do we start?
 # 📡 Introducción a Meshtastic
 
 [![Meshtastic](https://img.shields.io/badge/Meshtastic-C22500?style=for-the-badge&logo=maildotru)](https://meshtastic.org/)
@@ -8,7 +8,7 @@ Bienvenido a esta guía sobre **Meshtastic**. Este repositorio tiene como objeti
 
 ---
 
-## 🧐 ¿Qué es Meshtastic?
+## 🔎 ¿Qué es Meshtastic?
 
 **Meshtastic** es un proyecto de código abierto (open-source) que permite crear una red de malla (mesh network) descentralizada utilizando tecnología **LoRa** (Long Range). 
 
