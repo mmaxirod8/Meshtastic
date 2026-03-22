@@ -46,8 +46,11 @@ Empezar con Meshtastic es accesible y requiere pocos componentes:
 
 En las siguientes secciones, profundizaremos en la configuración y optimización de dos modelos específicos, detallando sus características, ventajas y esquemas de conexión.
 
-### 🔹 Heltec V3 / T114 v2
+### 🔹 Heltec T114 v2 (con pantalla)
 *(Próximamente: Descripción detallada, pinout y configuración de esta placa).*
+- En primer lugar, podemos conseguir esta placa de dos paginas principales (de Argentina):
+   - Starware
+   - Mercado Libre
 
-### 🔹 Seeed Studio XIAO nRF52840
+### 🔹 Seeed Studio XIAO nRF52840 Kit
 *(Próximamente: Descripción detallada, gestión de energía y configuración de esta placa).*
