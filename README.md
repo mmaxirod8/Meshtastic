@@ -68,4 +68,9 @@ En las siguientes secciones, profundizaremos en la configuración y optimizació
    - d
 
 ### 🔹 Seeed Studio XIAO nRF52840 Kit
+
+<p align="center">
+<img width="150" height="200" alt="image" src="https://github.com/user-attachments/assets/3354f50d-0bc4-4644-bf62-ac7d54137ba6" />
+</p>
+
 *(Próximamente: Descripción detallada, gestión de energía y configuración de esta placa).*
