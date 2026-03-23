@@ -33,10 +33,12 @@ El sistema se basa en dos pilares fundamentales:
 
 ## 🚀 ¿Cómo podemos empezar?
 
+
+
 Empezar con Meshtastic es accesible y requiere pocos componentes:
 
 1.  **Conseguir el Hardware:** Necesitas una placa de desarrollo que integre un microcontrolador (como un ESP32 o nRF52) y un chip de radio LoRa. 
-2.  **Flashear el Firmware:** Conectar la placa a la computadora e instalar el firmware oficial de Meshtastic a través de su [flasheador web](https://flasher.meshtastic.org/).
+2.  **Flashear el Firmware:** ⚠️ ***IMPORTANTE*** ⚠️ Antes de alimentar la placa debemos conectarle alguna antena, ya sea la que trae por defecto u otra. Una vez asegurado esto procedemos a conectar la placa a la computadora e instalar el firmware oficial de Meshtastic a través de su [flasheador web](https://flasher.meshtastic.org/).
 3.  **Descargar la App:** Instalar la aplicación de Meshtastic en tu smartphone (iOS o Android).
 4.  **Emparejar y Configurar:** Conectar tu teléfono a la placa vía Bluetooth. Desde la app, puedes configurar tu región (frecuencia legal), establecer un nombre de usuario y empezar a enviar mensajes a la malla.
 
