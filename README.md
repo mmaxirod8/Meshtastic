@@ -62,10 +62,10 @@ En las siguientes secciones, profundizaremos en la configuración y optimizació
    - Luego de eso vamos a descargar la app de Meshtastic de la PlayStore en nuestro celular, o sino, ... (ver pagina o app para PC)
    - Encedemos el bluetooth de nuestro celular (ver para PC)
    - Alimentamos la placa para Meshtastic mediante el cable USB-C (podemos alimentarla por medio de puertos USB 2.0 de nuestra PC, bateria portatil, o algun puerto que nos brinde 3.3 V)
-   - Abrimos la app de Meshtastic y nos deberia salir en el apartado de "..." nuestro dispositivo para conectar.
+   - Abrimos la app de Meshtastic y nos deberia salir en el apartado de `Connection`, nuestro dispositivo para conectar via Bluetooth
    
 - ⚙️ Configuraciones de la placa ***(importante para correcto funcionamiento)***
-   - d
+   - En primer lugar vamos a ir al apartado de `Settings`
 
 ### 🔹 Seeed Studio XIAO nRF52840 Kit
 
@@ -83,7 +83,7 @@ En las siguientes secciones, profundizaremos en la configuración y optimizació
    - Luego de eso vamos a descargar la app de Meshtastic de la PlayStore en nuestro celular, o sino, ... (ver pagina o app para PC)
    - Encedemos el bluetooth de nuestro celular (ver para PC)
    - Alimentamos la placa para Meshtastic mediante el cable USB-C (podemos alimentarla por medio de puertos USB 2.0 de nuestra PC, bateria portatil, o algun puerto que nos brinde 3.3 V)
-   - Abrimos la app de Meshtastic y nos deberia salir en el apartado de "..." nuestro dispositivo para conectar.
+   - Abrimos la app de Meshtastic y nos deberia salir en el apartado de `Connection`, nuestro dispositivo para conectar via Bluetooth
    
 - ⚙️ Configuraciones de la placa ***(importante para correcto funcionamiento)***
    - d
