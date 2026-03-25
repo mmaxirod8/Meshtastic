@@ -76,6 +76,8 @@ En las siguientes secciones, profundizaremos en la configuración y optimizació
    
 - ⚙️ Configuraciones de la placa ***(importante para correcto funcionamiento)***
    - En primer lugar vamos a ir al apartado de `Settings`, y entraremos a la opcion de `LoRa`
+<br>
+   
 
 ### 🔹 Seeed Studio XIAO nRF52840 Kit
 
