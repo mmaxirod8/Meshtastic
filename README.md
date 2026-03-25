@@ -50,13 +50,15 @@ Empezar con Meshtastic es accesible y requiere pocos componentes. De forma breve
 
 ## 🛠️ Hardware y Configuraciones Específicas
 
-En las siguientes secciones, profundizaremos en la configuración y optimización de dos modelos específicos, detallando sus características, ventajas, esquemas de conexión, flasheos y configuraciones.
+En las siguientes secciones, profundizaremos en la configuración y optimización de 2 modelos específicos de dispositivos mesh, el Heltec T114 v2 y la Seed Xiao nrf52840, detallando sus características, ventajas, esquemas de conexión, flasheos y configuraciones.
 
 ### 🔹 Heltec T114 v2 (con pantalla)
 
 <p align="center">
 <img width="214" height="99" alt="image" src="https://github.com/user-attachments/assets/8528d90b-ed64-4ae9-bb28-11259c6f82cb" />
 </p>
+
+### ❓ Como la configuramos?
 
 - 👉 En primer lugar, podemos conseguir esta placa de dos paginas principales (de Argentina):
    - Starware (modelo sin placa GPS) --> https://tienda.starware.com.ar/producto/placa-desarrollo-lora-bt-gps-heltec-mesh-node-t114-nrf52840sx1262-v20-pantalla/
@@ -76,16 +78,20 @@ En las siguientes secciones, profundizaremos en la configuración y optimizació
    - Abrimos la app de Meshtastic y nos deberia salir en el apartado de `Connection`, nuestro dispositivo para conectar via Bluetooth
    
 - ⚙️ Configuraciones de la placa ***(importante para correcto funcionamiento)***
-   - Ahora en esta parte veremos como hacer funcionar el dispositivo o "nodo". Una vez que estemos conectados con el dispotivo adquirido por medio de la app de Meshtastic, en primer lugar vamos a ir al apartado de `Settings`, y entraremos a la opcion de `LoRa`. Aqui vamos a 
+   - Ahora en esta parte veremos como hacer funcionar el dispositivo o "nodo". Una vez que estemos conectados con el dispotivo adquirido por medio de la app de Meshtastic, en primer lugar vamos a ir al apartado de `Settings`, y entraremos a la opcion de `LoRa`. Aqui vamos a
+
+### ⚡Ventajas
   
 <br>
-   
+<br>
 
 ### 🔹 Seeed Studio XIAO nRF52840 Kit
 
 <p align="center">
 <img width="150" height="200" alt="image" src="https://github.com/user-attachments/assets/3354f50d-0bc4-4644-bf62-ac7d54137ba6" />
 </p>
+
+### ❓ Como la configuramos?
 
 - 👉 En primer lugar, podemos conseguir esta placa de dos paginas principales (de Argentina):
    - Mercado Libre --> https://www.mercadolibre.com.ar/xiao-nrf52840--wiosx1262-kit-meshtastic-blelora-862930-m/up/MLAU3394520637#polycard_client=search-desktop&search_layout=grid&position=1&type=product&float_highlight=repurchase&tracking_id=3a7aa470-9531-405d-8084-412034cb75f7&wid=MLA1519008445&sid=search
@@ -115,3 +121,5 @@ En las siguientes secciones, profundizaremos en la configuración y optimizació
    
 - ⚙️ Configuraciones de la placa y comunicacion ***(importante para correcto funcionamiento)***
    - Ahora en esta parte veremos como hacer funcionar el dispositivo o "nodo". Una vez que estemos conectados con el dispotivo adquirido por medio de la app de Meshtastic, en primer lugar vamos a ir al apartado de `Settings`, y entraremos a la opcion de `LoRa`. Aqui vamos a 
+
+### ⚡Ventajas
