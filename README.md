@@ -98,7 +98,7 @@ En las siguientes secciones, profundizaremos en la configuración y optimizació
            </p>
         --> Luego, en el apartado de `Firmware` debemos seleccionar la version del mismo a descargar. Es recomendado que se escoja una version `Beta` ya que son las mas estables:
            <p align="center">
-           <img width="1881" height="923" alt="image" src="https://github.com/user-attachments/assets/b208a8be-7708-401a-8fe0-17b497d2f034" />
+           <img width="1600" height="820" alt="image" src="https://github.com/user-attachments/assets/b208a8be-7708-401a-8fe0-17b497d2f034" />
            </p>
         
    - Luego de eso vamos a descargar la app de Meshtastic de la PlayStore en nuestro celular, o sino, ... (ver pagina o app para PC)
