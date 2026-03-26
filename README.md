@@ -15,11 +15,11 @@ Welcome to this guide about ***Meshtastic***. This repository aims to explain th
 
 ## 🔎 ¿What is Meshtastic?
 
-***Meshtastic*** is an open-source project that allows you to create a decentralized mesh network using ***LoRa**¨* (Long Range) technology. 
+***Meshtastic*** is an open-source project that allows you to create a decentralized mesh network using ***LoRa*** (Long Range) technology. 
 
-A diferencia de las comunicaciones tradicionales que dependen de torres de telefonía celular o routers Wi-Fi centrales, Meshtastic permite que los dispositivos se comuniquen directamente entre sí. Es como tener una red de mensajería de texto privada y encriptada que funciona de forma completamente autónoma, sin necesidad de internet ni suscripciones a operadoras.
+Unlike traditional communications that rely on cell towers or central Wi-Fi routers, Meshtastic allows devices to communicate directly with each other. It's like having a private, encrypted text messaging network that operates completely independently, without needing the internet or carrier subscriptions.
 
-## 🎯 ¿Para qué se usa?
+## 🎯 ¿What is it used for?
 
 La flexibilidad de no depender de infraestructura externa hace que Meshtastic sea ideal para múltiples escenarios:
 
