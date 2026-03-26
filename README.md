@@ -1,5 +1,5 @@
 # 🌐 Meshtastic Technology --> How it works? What we use? How do we start?
-# 📡 Introducción a Meshtastic
+# 📡 Introduction to Meshtastic
 
 <p align="center">
    
@@ -10,13 +10,12 @@
 
 
 
-Bienvenido a esta guía sobre **Meshtastic**. Este repositorio tiene como objetivo explicar los fundamentos de esta tecnología de comunicación descentralizada y documentar la configuración de nodos específicos.
-
+Welcome to this guide about ***Meshtastic***. This repository aims to explain the fundamentals of this decentralized communication technology and document the configuration of specific nodes.
 ---
 
-## 🔎 ¿Qué es Meshtastic?
+## 🔎 ¿What is Meshtastic?
 
-**Meshtastic** es un proyecto de código abierto (open-source) que permite crear una red de malla (mesh network) descentralizada utilizando tecnología **LoRa** (Long Range). 
+***Meshtastic*** is an open-source project that allows you to create a decentralized mesh network using ***LoRa**¨* (Long Range) technology. 
 
 A diferencia de las comunicaciones tradicionales que dependen de torres de telefonía celular o routers Wi-Fi centrales, Meshtastic permite que los dispositivos se comuniquen directamente entre sí. Es como tener una red de mensajería de texto privada y encriptada que funciona de forma completamente autónoma, sin necesidad de internet ni suscripciones a operadoras.
 
