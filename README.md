@@ -38,12 +38,12 @@ El sistema se basa en dos pilares fundamentales:
 
 ## 🚀 ¿How can we start? --> General Steps
 
-Empezar con Meshtastic es accesible y requiere pocos componentes. De forma breve, los pasos para empezar a involucrarte con algun dispositivo Meshtastic consisten en lo siguiente:
+Getting started with Meshtastic is accessible and requires few components. In short, the steps to begin using any Meshtastic device are as follows:
 
-1.  ***Conseguir el Hardware:*** Necesitas una placa de desarrollo que integre un microcontrolador (como un ESP32 o nRF52) y un chip de radio LoRa. 
-2.  ***Flashear el Firmware:*** ⚠️ ***IMPORTANTE*** ⚠️ Antes de alimentar la placa debemos conectarle alguna antena, ya sea la que trae por defecto u otra. Una vez asegurado esto, procedemos a conectar la placa a la computadora e instalar el firmware oficial de Meshtastic a través de su [flasheador web](https://flasher.meshtastic.org/).
-3.  ***Descargar la App Meshtastic:*** Instalar la aplicación de Meshtastic en tu smartphone (iOS o Android) (ver para PC).
-4.  ***Emparejar y Configurar:*** Conectar tu teléfono a la placa vía Bluetooth. Desde la app, puedes configurar tu región (frecuencia legal), establecer un nombre de usuario y empezar a enviar mensajes a la malla.
+1.  ***Get the Hardware:*** You need a development board that integrates a microcontroller (such as an ESP32 or nRF52) and a LoRa radio chip.
+2.  ***Flash the Firmware:*** ⚠️ ***IMPORTANT*** ⚠️ Before powering the board, we must connect an antenna, either the one that comes pre-installed or another. Once this is secured, we proceed to connect the board to the computer and install the official Meshtastic firmware using their web flasher (https://flasher.meshtastic.org/).
+3.  ***Download the Meshtastic App:*** Instalar la aplicación de Meshtastic en tu smartphone (iOS o Android) (ver para PC).
+4.  ***Pair and Configure:*** Connect your phone to the panel via Bluetooth. From the app, you can configure your region (legal frequency), set a username, and start sending messages to the mesh network.
 
 ---
 
