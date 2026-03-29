@@ -31,7 +31,7 @@ The flexibility of not depending on external infrastructure makes Meshtastic ide
 
 ## ⚙️ ¿How it works?
 
-El sistema se basa en dos pilares fundamentales:
+The system is based on two fundamental pillars:
 
 📡  **LoRa technology:** It uses long-range, low-power radio frequency modulation. This allows small data packets (such as text or GPS coordinates) to be sent several kilometers away using small batteries.
 
@@ -52,7 +52,7 @@ Getting started with Meshtastic is accessible and requires few components. In sh
 
 In the following sections, we will delve deeper into the configuration and optimization of 2 specific mesh device models, the Heltec T114 v2 and the Seed Xiao nrf52840, detailing their features, advantages, connection schemes, flashing and configurations.
 
-### 🔹 Heltec T114 v2 (con pantalla)
+### 🔹 Heltec T114 v2 (with screen)
 
 <p align="center">
 <img width="214" height="99" alt="image" src="https://github.com/user-attachments/assets/8528d90b-ed64-4ae9-bb28-11259c6f82cb" />
@@ -60,10 +60,10 @@ In the following sections, we will delve deeper into the configuration and optim
 
 ### ❓ How do we configure it?
 
-- 👉 En primer lugar, podemos conseguir esta placa de dos paginas principales (de Argentina):
-   - Starware (modelo sin placa GPS) --> https://tienda.starware.com.ar/producto/placa-desarrollo-lora-bt-gps-heltec-mesh-node-t114-nrf52840sx1262-v20-pantalla/
-   - Starware (modelo con placa GPS) --> https://tienda.starware.com.ar/producto/kit-desarrollo-lora-bt-gps-heltec-antena-mesh-node-t114-nrf52840sx1262-v2/
-   - Mercado Libre (internacional) (modelo ya armado, con carcasa 3D, sin placa GPS) --> https://www.mercadolibre.com.ar/meshtastic-tracker-t114-v2-nordic-nrf52840-sx1262-lorawa/p/MLA2068680206#polycard_client=search-desktop&search_layout=grid&position=26&type=product&tracking_id=304d39fc-bcfe-4be4-abb9-f76de48062d1&wid=MLA3055433870&sid=search
+- 👉 First, we can get this license plate from two main pages (from Argentina):
+   - Starware (model without GPS plate) --> https://tienda.starware.com.ar/producto/placa-desarrollo-lora-bt-gps-heltec-mesh-node-t114-nrf52840sx1262-v20-pantalla/
+   - Starware (model with GPS plate) --> https://tienda.starware.com.ar/producto/kit-desarrollo-lora-bt-gps-heltec-antena-mesh-node-t114-nrf52840sx1262-v2/
+   - Mercado Libre (international) (model with 3D Case but without GPS plate) --> https://www.mercadolibre.com.ar/meshtastic-tracker-t114-v2-nordic-nrf52840-sx1262-lorawa/p/MLA2068680206#polycard_client=search-desktop&search_layout=grid&position=26&type=product&tracking_id=304d39fc-bcfe-4be4-abb9-f76de48062d1&wid=MLA3055433870&sid=search
    
 - 📻 Una vez adquirida la placa, vamos a realizar los pasos de inicializacion:
    - ⚠️ ***IMPORTANTE*** ⚠️ Antes de alimentar la placa por medio del puerto USB-C, debemos conectar alguna antena (ya sea la que trae por default o cualquier otra que tengamos) a su puerto LoRa. Asegurado esto, la conectamos a nuestra PC (para alimentacion y flasheo) por medio de los puertos USB 2.0 [los puertos 3.0 no son recomendados para conectar la placa debido a la generacion de interferencias]
@@ -91,7 +91,7 @@ In the following sections, we will delve deeper into the configuration and optim
 <img width="150" height="200" alt="image" src="https://github.com/user-attachments/assets/3354f50d-0bc4-4644-bf62-ac7d54137ba6" />
 </p>
 
-### ❓ Como la configuramos?
+### ❓ How do we configure it?
 
 - 👉 En primer lugar, podemos conseguir esta placa de dos paginas principales (de Argentina):
    - Mercado Libre --> https://www.mercadolibre.com.ar/xiao-nrf52840--wiosx1262-kit-meshtastic-blelora-862930-m/up/MLAU3394520637#polycard_client=search-desktop&search_layout=grid&position=1&type=product&float_highlight=repurchase&tracking_id=3a7aa470-9531-405d-8084-412034cb75f7&wid=MLA1519008445&sid=search
