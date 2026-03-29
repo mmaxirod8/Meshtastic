@@ -47,9 +47,9 @@ Getting started with Meshtastic is accessible and requires few components. In sh
 
 ---
 
-## 🛠️ Hardware y Configuraciones Específicas
+## 🛠️ Hardware and Specific Configurations
 
-En las siguientes secciones, profundizaremos en la configuración y optimización de 2 modelos específicos de dispositivos mesh, el Heltec T114 v2 y la Seed Xiao nrf52840, detallando sus características, ventajas, esquemas de conexión, flasheos y configuraciones.
+In the following sections, we will delve deeper into the configuration and optimization of 2 specific mesh device models, the Heltec T114 v2 and the Seed Xiao nrf52840, detailing their features, advantages, connection schemes, flashing and configurations.
 
 ### 🔹 Heltec T114 v2 (con pantalla)
 
@@ -57,7 +57,7 @@ En las siguientes secciones, profundizaremos en la configuración y optimizació
 <img width="214" height="99" alt="image" src="https://github.com/user-attachments/assets/8528d90b-ed64-4ae9-bb28-11259c6f82cb" />
 </p>
 
-### ❓ Como la configuramos?
+### ❓ How do we configure it?
 
 - 👉 En primer lugar, podemos conseguir esta placa de dos paginas principales (de Argentina):
    - Starware (modelo sin placa GPS) --> https://tienda.starware.com.ar/producto/placa-desarrollo-lora-bt-gps-heltec-mesh-node-t114-nrf52840sx1262-v20-pantalla/
