@@ -67,7 +67,7 @@ In the following sections, we will delve deeper into the configuration and optim
    
 - 📻 Once the board has been acquired, we will perform the initialization steps:
    - ⚠️ ***IMPORTANT*** ⚠️ Antes de alimentar la placa por medio del puerto USB-C, debemos conectar alguna antena (ya sea la que trae por default o cualquier otra que tengamos) a su puerto LoRa. Asegurado esto, la conectamos a nuestra PC (para alimentacion y flasheo) por medio de los puertos USB 2.0 [los puertos 3.0 no son recomendados para conectar la placa debido a la generacion de interferencias]
-   - Como paso siguiente, procedemos a flashear la placa a traves de su [flasheador web](https://flasher.meshtastic.org/). Este paso consiste en lo siguiente:
+   - Como siguiente instruccion, procedemos a flashear la placa a traves de su [flasheador web](https://flasher.meshtastic.org/). Sin embargo, a diferencia de la placa Meshtastic descrita mas abajo, esta no se flashea directamente de la web, sino que hay que aplicar un paso mas a ello. El conjunto de pasos consisten en lo siguiente:
           
         --> Abrimos el flasheador web, y nos vamos al apartado de `Select Target Device`
                <p align="center">
@@ -82,15 +82,17 @@ In the following sections, we will delve deeper into the configuration and optim
         <img width="1828" height="925" alt="image" src="https://github.com/user-attachments/assets/0df711dc-945d-4329-8937-ae3ef16620d7" />
      </p>
      
-        --> Una vez seleccionado la version del `Firmware`, clickeamos en `Flashear`, y nos saldra una ventana emergente diciendo todas las caractericas de esa version. Le damos en `Continuar`:
+        --> Una vez seleccionado la version del `Firmware`, clickeamos en `Flashear`, y nos saldra una ventana emergente diciendo todas las caracteristicas de esa version. Le damos en `Continuar`:
       <p align="center">
         <img width="1349" height="757" alt="image" src="https://github.com/user-attachments/assets/bdae9d50-a56a-4796-a8e6-b53f659a9639" />
            </p>
 
-        --> Seguido del paso anterior, le damos en `Flashear`:
+        --> Seguido del paso anterior, vamos a ver  que se nos abre otra ventana emergente. Le damos directamente en `Descargar UF2`:
       <p align="center">
         <img width="1568" height="829" alt="image" src="https://github.com/user-attachments/assets/1bc2a852-022c-410f-8626-694ff326b40b" />
            </p>
+
+        --> Lo que va a suceder es que se nos va a descargar un archivo. 
 
    - *Paso opcional [Una vez flasheada la placa, se la puede desconectar de la PC]*  
    - Luego de eso vamos a descargar la app de Meshtastic de la PlayStore en nuestro celular, o sino, ... (ver pagina o app para PC)
@@ -133,7 +135,7 @@ In the following sections, we will delve deeper into the configuration and optim
            <p align="center">
            <img width="1600" height="820" alt="image" src="https://github.com/user-attachments/assets/b208a8be-7708-401a-8fe0-17b497d2f034" />
            </p>
-        --> Una vez seleccionado la version del `Firmware`, clickeamos en `Flashear`, y nos saldra una ventana emergente diciendo todas las caractericas de esa version. Le damos en `Continuar`: 
+        --> Una vez seleccionado la version del `Firmware`, clickeamos en `Flashear`, y nos saldra una ventana emergente diciendo todas las caracteristicas de esa version. Le damos en `Continuar`: 
            <p align="center">
             <img width="1677" height="753" alt="image" src="https://github.com/user-attachments/assets/fbbf21ac-f5b2-4396-a7e5-1df12ac60add" />
            </p>
