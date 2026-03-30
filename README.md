@@ -135,6 +135,7 @@ In the following sections, we will delve deeper into the configuration and optim
         <p align="center">
          <img width="1598" height="837" alt="image" src="https://github.com/user-attachments/assets/07a5120c-c9c3-4f54-8823-1dcb32fe30dd" />
            </p>
+         --> Seleccionado el COM correcto, le damos en `Descargar UF2`:
 
    - *Paso opcional [Una vez flasheada la placa, se la puede desconectar de la PC]*    
    - Luego de eso vamos a descargar la app de Meshtastic de la PlayStore en nuestro celular, o sino, ... (ver pagina o app para PC)
