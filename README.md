@@ -89,7 +89,7 @@ In the following sections, we will delve deeper into the configuration and optim
 
         --> Seguido del paso anterior, vamos a ver  que se nos abre otra ventana emergente. Le damos directamente en `Descargar UF2`:
       <p align="center">
-        <img width="1568" height="829" alt="image" src="https://github.com/user-attachments/assets/1bc2a852-022c-410f-8626-694ff326b40b" />
+        <img width="1200" height="700" alt="image" src="https://github.com/user-attachments/assets/1bc2a852-022c-410f-8626-694ff326b40b" />
            </p>
 
         --> Lo que va a suceder es que se nos va a descargar un archivo. Al mismo, lo deberemos copiar en la carpeta que nos genero el dispositivo Meshtastic al conectarlo a nuestra PC (aparece como un disco). Es normal que tarde un poco y que la placa se reinicie. Y listo! Nuestra placa Meshtastic ya se encuentrada flasheada = lista para funcionar y configurarla.
@@ -110,7 +110,7 @@ In the following sections, we will delve deeper into the configuration and optim
 <p align="center">
    <img width="615" height="225" alt="image" src="https://github.com/user-attachments/assets/07d156f6-f08c-4a0a-86a7-2cd91423eb0c" />
 </p>
-     --> En PC:
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> En PC:
      
 <p align="center">
    <img width="615" height="225" alt="image" src="https://github.com/user-attachments/assets/07d156f6-f08c-4a0a-86a7-2cd91423eb0c" />
