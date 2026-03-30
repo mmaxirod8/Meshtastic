@@ -83,11 +83,14 @@ In the following sections, we will delve deeper into the configuration and optim
      </p>
      
         --> Una vez seleccionado la version del `Firmware`, clickeamos en `Flashear`, y nos saldra una ventana emergente diciendo todas las caractericas de esa version. Le damos en `Continuar`:
-             <p align="center">
+      <p align="center">
         <img width="1349" height="757" alt="image" src="https://github.com/user-attachments/assets/bdae9d50-a56a-4796-a8e6-b53f659a9639" />
            </p>
 
-        --> 
+        --> Seguido del paso anterior, le damos en `Flashear`:
+      <p align="center">
+        <img width="1568" height="829" alt="image" src="https://github.com/user-attachments/assets/1bc2a852-022c-410f-8626-694ff326b40b" />
+           </p>
 
    - *Paso opcional [Una vez flasheada la placa, se la puede desconectar de la PC]*  
    - Luego de eso vamos a descargar la app de Meshtastic de la PlayStore en nuestro celular, o sino, ... (ver pagina o app para PC)
