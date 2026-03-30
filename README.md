@@ -135,7 +135,8 @@ In the following sections, we will delve deeper into the configuration and optim
         <p align="center">
          <img width="1598" height="837" alt="image" src="https://github.com/user-attachments/assets/07a5120c-c9c3-4f54-8823-1dcb32fe30dd" />
            </p>
-         --> Seleccionado el COM correcto, le damos en `Descargar UF2`:
+           
+        --> Seleccionado el COM correcto, le damos en `Descargar UF2`:
           <p align="center">
          <img width="1570" height="872" alt="image" src="https://github.com/user-attachments/assets/998a0114-7e0a-4791-bbb7-626decdafb11" />
            </p>
