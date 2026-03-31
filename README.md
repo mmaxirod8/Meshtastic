@@ -122,6 +122,8 @@ In the following sections, we will delve deeper into the configuration and optim
 ### ⚡Advantages
 - Viene con pantalla incorporada
 - Viene con antena
+- Viene con pines para soldar
+- Viene con cables de alimentacion para baterias (portatil)
 - Tamaño de hardware mediano/pequeño
 - Personalizacion de perifericos (alta)
 
@@ -204,4 +206,4 @@ In the following sections, we will delve deeper into the configuration and optim
 - Tamaño de hardware muy reducido
 - Viene con antena
 - Personalizacion de perifericos (alta)
-- Modulo LoRa incorporado
+- Modulo LoRa incorporado (desacoplable)
