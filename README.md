@@ -103,7 +103,7 @@ In the following sections, we will delve deeper into the configuration and optim
 </p>
    
    - En caso de haber desconectado la placa luego del flasheo, en el *Paso Opcional*, la debemos de volver a alimentar mediante el cable USB-C (podemos alimentarla esta vez, por medio de los puertos USB de nuestra PC como al inicio o por medio de una bateria portatil, cuanto voltaje?)
-   - Abrimos la app de Meshtastic (en el celular) y nos deberia salir en el apartado de `Connection`, nuestro dispositivo para conectar via Bluetooth. En PC, yendo a `Add connection` (seleccionamos la via por la cual queremos conectar el dispositivo), y luego le damos en `Connect`:
+   - Abrimos la app de Meshtastic (en el celular) y nos deberia salir en el apartado de `Connection`, nuestro dispositivo para conectar via Bluetooth; generalmente sale con un nombre estilo: *"Meshtastic_XXXX"*. En PC, yendo a `Add connection` (seleccionamos la via por la cual queremos conectar el dispositivo), y luego le damos en `Connect`:
 
      --> En celular:
      
@@ -171,10 +171,26 @@ In the following sections, we will delve deeper into the configuration and optim
         --> Por ultimo, con esto realizado, se nos descargara un archivo. A este mismo, lo deberemos copiar en la carpeta que nos genero el dispositivo Meshtastic al conectarlo a nuestra PC (aparece como un disco). Es normal que tarde un poco y que la placa se reinicie. Y listo! Nuestra placa Meshtastic ya se encuentrada flasheada = lista para funcionar y configurarla.
 
    - *Paso opcional [Una vez flasheada la placa, se la puede desconectar de la PC]*    
-   - Luego de eso vamos a descargar la app de Meshtastic de la PlayStore en nuestro celular, o sino, ... (ver pagina o app para PC)
-   - Encedemos el bluetooth de nuestro celular (ver como es para PC)
-   - En caso de haber desconectado la placa luego del flasheo, en el *Paso Opcional*, la debemos de volver a alimentar mediante el cable USB-C (podemos alimentarla esta vez, por medio de los puertos USB de nuestra PC como al inicio, por medio de una bateria portatil, o por medio de algun puerto que nos brinde 3.3 V)
-   - Abrimos la app de Meshtastic y nos deberia salir en el apartado de `Connection`, nuestro dispositivo para conectar via Bluetooth. Generalmente sale con un nombre estilo: *"Meshtastic_XXXX"*
+   - Luego de eso, para obtener el software de configuracion Meshtastic, vamos a descargar la app de Meshtastic de la PlayStore en nuestro celular, o sino, podemos directamente entrar desde nuestra PC a: client.meshtastic.org
+   - Si elegimos configurar la placa via telefono celular, encedemos el bluetooth de nuestro celular. En caso de haber seleccionado PC, simplemente por medio de un cable USB ya nos permite configurarla (tambien en PC se puede via Bluetooth o HTTP).
+   
+<p align="center">
+<img width="750" height="800" alt="image" src="https://github.com/user-attachments/assets/e44b108b-ee8f-4a3c-bdcd-740c9b57c742" />
+</p>
+   
+   - En caso de haber desconectado la placa luego del flasheo, en el *Paso Opcional*, la debemos de volver a alimentar mediante el cable USB-C (podemos alimentarla esta vez, por medio de los puertos USB de nuestra PC como al inicio o por medio de una bateria portatil, cuanto voltaje?)
+   - Abrimos la app de Meshtastic (en el celular) y nos deberia salir en el apartado de `Connection`, nuestro dispositivo para conectar via Bluetooth; generalmente sale con un nombre estilo: *"Meshtastic_XXXX"*. En PC, yendo a `Add connection` (seleccionamos la via por la cual queremos conectar el dispositivo), y luego le damos en `Connect`:
+
+     --> En celular:
+     
+<p align="center">
+   <img width="615" height="225" alt="image" src="https://github.com/user-attachments/assets/07d156f6-f08c-4a0a-86a7-2cd91423eb0c" />
+</p>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> En PC:
+     
+<p align="center">
+   <img width="615" height="225" alt="image" src="https://github.com/user-attachments/assets/07d156f6-f08c-4a0a-86a7-2cd91423eb0c" />
+</p>
    
 - ⚙️ Configuraciones de la placa y comunicacion ***(importante para correcto funcionamiento)***
    - Ahora en esta parte veremos como hacer funcionar el dispositivo o "nodo". Una vez que estemos conectados con el dispotivo adquirido por medio de la app de Meshtastic, en primer lugar vamos a ir al apartado de `Settings`, y entraremos a la opcion de `LoRa`. Aqui vamos a 
