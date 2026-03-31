@@ -127,7 +127,7 @@ In the following sections, we will delve deeper into the configuration and optim
 - It comes with an input for a GPS module
 - Medium/small hardware size
 - Peripheral customization (high)
-- Entrada de alimentacion USB-C
+- USB-C power input
 
   
 <br>
@@ -209,4 +209,4 @@ In the following sections, we will delve deeper into the configuration and optim
 - Viene con antena
 - Personalizacion de perifericos (alta)
 - Modulo LoRa incorporado (desacoplable)
-- Entrada de alimentacion USB-C
+- USB-C power input
