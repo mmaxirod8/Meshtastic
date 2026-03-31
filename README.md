@@ -121,7 +121,7 @@ In the following sections, we will delve deeper into the configuration and optim
 
 ### ⚡Advantages
 - Comes with built-in screen
-- Viene con antena
+- Comes with antenna
 - Viene con pines para soldar
 - Viene con cables de alimentacion para baterias (portatil)
 - Viene con entrada para modulo GPS
