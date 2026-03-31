@@ -124,8 +124,10 @@ In the following sections, we will delve deeper into the configuration and optim
 - Viene con antena
 - Viene con pines para soldar
 - Viene con cables de alimentacion para baterias (portatil)
+- Viene con entrada para modulo GPS
 - Tamaño de hardware mediano/pequeño
 - Personalizacion de perifericos (alta)
+- Entrada de alimentacion USB-C
 
   
 <br>
@@ -207,3 +209,4 @@ In the following sections, we will delve deeper into the configuration and optim
 - Viene con antena
 - Personalizacion de perifericos (alta)
 - Modulo LoRa incorporado (desacoplable)
+- Entrada de alimentacion USB-C
