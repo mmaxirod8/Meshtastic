@@ -102,7 +102,7 @@ In the following sections, we will delve deeper into the configuration and optim
 <img width="750" height="800" alt="image" src="https://github.com/user-attachments/assets/e44b108b-ee8f-4a3c-bdcd-740c9b57c742" />
 </p>
    
-   - En caso de haber desconectado la placa luego del flasheo, en el *Paso Opcional*, la debemos de volver a alimentar mediante el cable USB-C (podemos alimentarla esta vez, por medio de los puertos USB de nuestra PC como al inicio o por medio de una bateria portatil, cuanto voltaje?)
+   - En caso de haber desconectado la placa luego del flasheo, en el *Paso Opcional*, la debemos de volver a alimentar mediante el cable USB-C (podemos alimentarla esta vez, por medio de los puertos USB 2.0 de nuestra PC como al inicio o por medio de una bateria portatil, o algo que nos brinde 5 V)
    - Abrimos la app de Meshtastic (en el celular) y nos deberia salir en el apartado de `Connection`, nuestro dispositivo para conectar via Bluetooth; generalmente sale con un nombre estilo: *"Meshtastic_XXXX"*. En PC, yendo a `Add connection` (seleccionamos la via por la cual queremos conectar el dispositivo), y luego le damos en `Connect`:
 
      --> En celular:
@@ -168,7 +168,7 @@ In the following sections, we will delve deeper into the configuration and optim
           <p align="center">
          <img width="1570" height="872" alt="image" src="https://github.com/user-attachments/assets/998a0114-7e0a-4791-bbb7-626decdafb11" />
            </p>
-        --> Por ultimo, con esto realizado, se nos descargara un archivo. A este mismo, lo deberemos copiar en la carpeta que nos genero el dispositivo Meshtastic al conectarlo a nuestra PC (aparece como un disco). Es normal que tarde un poco y que la placa se reinicie. Y listo! Nuestra placa Meshtastic ya se encuentrada flasheada = lista para funcionar y configurarla.
+        --> Por ultimo, con esto realizado, se nos descargara un archivo. A este mismo, lo deberemos copiar en la carpeta que nos genero el dispositivo Meshtastic al conectarlo a nuestra PC (aparece como un disco). Es normal que tarde un poco en transferirse y que la placa se reinicie. Y listo! Nuestra placa Meshtastic ya se encuentrada flasheada = lista para funcionar y configurarla.
 
    - *Paso opcional [Una vez flasheada la placa, se la puede desconectar de la PC]*    
    - Luego de eso, para obtener el software de configuracion Meshtastic, vamos a descargar la app de Meshtastic de la PlayStore en nuestro celular, o sino, podemos directamente entrar desde nuestra PC a: client.meshtastic.org
@@ -178,7 +178,7 @@ In the following sections, we will delve deeper into the configuration and optim
 <img width="750" height="800" alt="image" src="https://github.com/user-attachments/assets/e44b108b-ee8f-4a3c-bdcd-740c9b57c742" />
 </p>
    
-   - En caso de haber desconectado la placa luego del flasheo, en el *Paso Opcional*, la debemos de volver a alimentar mediante el cable USB-C (podemos alimentarla esta vez, por medio de los puertos USB de nuestra PC como al inicio o por medio de una bateria portatil, cuanto voltaje?)
+   - En caso de haber desconectado la placa luego del flasheo, en el *Paso Opcional*, la debemos de volver a alimentar mediante el cable USB-C (podemos alimentarla esta vez, por medio de los puertos USB 2.0 de nuestra PC como al inicio o por medio de una bateria portatil, o algo que nos brinde 5 V)
    - Abrimos la app de Meshtastic (en el celular) y nos deberia salir en el apartado de `Connection`, nuestro dispositivo para conectar via Bluetooth; generalmente sale con un nombre estilo: *"Meshtastic_XXXX"*. En PC, yendo a `Add connection` (seleccionamos la via por la cual queremos conectar el dispositivo), y luego le damos en `Connect`:
 
      --> En celular:
