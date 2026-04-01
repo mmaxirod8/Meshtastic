@@ -95,7 +95,7 @@ In the following sections, we will delve deeper into the configuration and optim
         --> Lo que va a suceder es que se nos va a descargar un archivo. Al mismo, lo deberemos copiar en la carpeta que nos genero el dispositivo Meshtastic al conectarlo a nuestra PC (aparece como un disco). Es normal que tarde un poco y que la placa se reinicie. Y listo! Nuestra placa Meshtastic ya se encuentrada flasheada = lista para funcionar y configurarla.
 
    - *Paso opcional [Una vez flasheada la placa, se la puede desconectar de la PC]*  
-   - Luego de eso, para obtener el software de configuracion Meshtastic, vamos a descargar la app de Meshtastic de la PlayStore en nuestro celular, o sino, podemos directamente entrar desde nuestra PC a: client.meshtastic.org
+   - Luego de eso, para obtener el software de configuracion Meshtastic, vamos a descargar la app de Meshtastic de la PlayStore en nuestro celular, o sino, podemos directamente entrar desde nuestra PC a: https://client.meshtastic.org
    - Si elegimos configurar la placa via telefono celular, encedemos el bluetooth de nuestro celular. En caso de haber seleccionado PC, simplemente por medio de un cable USB ya nos permite configurarla (tambien en PC se puede via Bluetooth o HTTP).
    
 <p align="center">
