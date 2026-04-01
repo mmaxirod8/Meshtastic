@@ -69,7 +69,7 @@ In the following sections, we will delve deeper into the configuration and optim
    - ⚠️ ***IMPORTANT*** ⚠️ Before powering the board via the USB-C port, we must connect an antenna (either the one it comes with or any other we have) to its LoRa port. Once this is done, we connect it to our PC (for power and flashing) via the USB 2.0 ports [USB 3.0 ports are not recommended for connecting the board due to interference].
    - As the next step, we will flash the board using its web flasher (https://flasher.meshtastic.org/). However, unlike the Meshtastic board described below (the Xiao nRF52840 Seed), this one is not flashed directly from the website; there is one less step. The flashing steps are as follows:
           
-        --> Abrimos el flasheador web, y nos vamos al apartado de `Select Target Device`
+        --> We open the web flasher, and go to the section of `Select Target Device`
                <p align="center">
           <img width="1902" height="836" alt="image" src="https://github.com/user-attachments/assets/f29672f0-f267-45ff-8dba-a8be2c8c7d83" />
           </p>
