@@ -77,12 +77,13 @@ In the following sections, we will delve deeper into the configuration and optim
       <p align="center">
      <img width="1828" height="930" alt="image" src="https://github.com/user-attachments/assets/e46cfed5-cdd8-4d65-805c-01bb57e27aed" />
      </p>
+     
         --> Next, in the `Firmware` section, we must select the version to download. It is recommended to choose a `Beta` version, as these are the most stable.
               <p align="center">
         <img width="1828" height="925" alt="image" src="https://github.com/user-attachments/assets/0df711dc-945d-4329-8937-ae3ef16620d7" />
      </p>
      
-        --> Una vez seleccionado la version del `Firmware`, clickeamos en `Flashear`, y nos saldra una ventana emergente diciendo todas las caracteristicas de esa version. Le damos en `Continuar`:
+        --> Once you've selected the firmware version, click `Flash`, and a pop-up window will appear detailing all the features of that version. Click `Continue`.
       <p align="center">
         <img width="1349" height="757" alt="image" src="https://github.com/user-attachments/assets/bdae9d50-a56a-4796-a8e6-b53f659a9639" />
            </p>
