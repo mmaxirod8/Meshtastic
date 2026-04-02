@@ -157,7 +157,7 @@ In the following sections, we will delve deeper into the configuration and optim
            <p align="center">
            <img width="1901" height="896" alt="image" src="https://github.com/user-attachments/assets/23da2f63-b9a1-472c-8a28-32e6508b90d4" />
            </p>
-        --> Luego, en el apartado de `Firmware` debemos seleccionar la version del mismo a descargar. Es recomendado que se escoja una version `Beta` ya que son las mas estables:
+        --> Next, in the `Firmware` section, we must select the version to download. It is recommended to choose a `Beta` version, as these are the most stable.
            <p align="center">
            <img width="1600" height="820" alt="image" src="https://github.com/user-attachments/assets/b208a8be-7708-401a-8fe0-17b497d2f034" />
            </p>
