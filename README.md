@@ -153,7 +153,7 @@ In the following sections, we will delve deeper into the configuration and optim
           <p align="center">
           <img width="1902" height="836" alt="image" src="https://github.com/user-attachments/assets/f29672f0-f267-45ff-8dba-a8be2c8c7d83" />
           </p>
-        --> Seleccionamos o buscamos nuestra placa, en este caso la `Seed Xiao nrf52840 Kit`:
+        --> We select or search for our board, in this case the `Seed Xiao nrf52840 Kit`:
            <p align="center">
            <img width="1901" height="896" alt="image" src="https://github.com/user-attachments/assets/23da2f63-b9a1-472c-8a28-32e6508b90d4" />
            </p>
