@@ -95,7 +95,7 @@ In the following sections, we will delve deeper into the configuration and optim
 
         --> What will happen is that a file will be downloaded. You will need to copy this file to the folder created by the Meshtastic device when you connect it to your PC (it appears as a disk). It's normal for this to take a little while and for the board to restart. And that's it! Your Meshtastic board is now flashed and ready to use and configure.
 
-   - *Paso opcional [Una vez flasheada la placa, se la puede desconectar de la PC]*  
+   - *Optional step [Once the board has been flashed, it can be disconnected from the PC]*  
    - Luego de eso, para obtener el software de configuracion Meshtastic, vamos a descargar la app de Meshtastic de la PlayStore en nuestro celular, o sino, podemos directamente entrar desde nuestra PC a: https://client.meshtastic.org
    - Si elegimos configurar la placa via telefono celular, encedemos el bluetooth de nuestro celular (tambien hay opciones por cable USB e internet en celular). En caso de haber seleccionado PC, simplemente por medio de un cable USB ya nos permite configurarla (tambien en PC se puede via Bluetooth o HTTP).
    
