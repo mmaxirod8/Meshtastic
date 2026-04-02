@@ -88,7 +88,7 @@ In the following sections, we will delve deeper into the configuration and optim
         <img width="1349" height="757" alt="image" src="https://github.com/user-attachments/assets/bdae9d50-a56a-4796-a8e6-b53f659a9639" />
            </p>
 
-        --> Seguido del paso anterior, vamos a ver que se nos abre otra ventana emergente. Le damos directamente en `Descargar UF2`:
+        --> Following the previous step, another pop-up window will appear. Click directly on `Download UF2`:
       <p align="center">
         <img width="1200" height="700" alt="image" src="https://github.com/user-attachments/assets/1bc2a852-022c-410f-8626-694ff326b40b" />
            </p>
