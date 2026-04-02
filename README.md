@@ -147,7 +147,7 @@ In the following sections, we will delve deeper into the configuration and optim
    
 - 📻 Once the board has been acquired, we will perform the initialization steps:
    - ⚠️ ***IMPORTANT*** ⚠️ Before powering the board via the USB-C port, we must connect an antenna (either the one it comes with or any other we have) to its LoRa port. Once this is done, we connect it to our PC (for power and flashing) via the USB 2.0 ports [USB 3.0 ports are not recommended for connecting the board due to interference].
-   - Como paso siguiente, procedemos a flashear la placa a traves de su [flasheador web](https://flasher.meshtastic.org/). Los paso de flasheo son los siguientes:
+   - As a next step, we proceed to flash the board using its web flasher (https://flasher.meshtastic.org/). The flashing steps are as follows:
      
         --> Abrimos el flasheador web, y nos vamos al apartado de `Select Target Device`
           <p align="center">
