@@ -43,7 +43,7 @@ Getting started with Meshtastic is accessible and requires few components. In sh
 
 1.  ***Get the Hardware:*** You need a development board that integrates a microcontroller (such as an ESP32 or nRF52) and a LoRa radio chip.
 2.  ***Flash the Firmware:*** ⚠️ ***IMPORTANT*** ⚠️ Before powering the board, we must connect an antenna, either the one that comes pre-installed or another. Once this is secured, we proceed to connect the board to the computer and install the official Meshtastic firmware using their web flasher (https://flasher.meshtastic.org/).
-3.  ***Download the Meshtastic App:*** Instalar la aplicación de Meshtastic en tu smartphone (iOS o Android) (ver para PC).
+3.  ***Download the Meshtastic App:*** Install the Meshtastic app on your smartphone (iOS or Android), or visit the Meshtastic setup website for PC (https://client.meshtastic.org).
 4.  ***Pair and Configure:*** Connect your phone to the panel via Bluetooth. From the app, you can configure your region (legal frequency), set a username, and start sending messages to the mesh network.
 
 ---
