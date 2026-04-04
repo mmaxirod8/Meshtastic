@@ -118,6 +118,7 @@ In the following sections, we will delve deeper into the configuration and optim
 <p align="center">
    <img width="615" height="225" alt="image" src="https://github.com/user-attachments/assets/07d156f6-f08c-4a0a-86a7-2cd91423eb0c" />
 </p>
+<br>
    
 - ⚙️ Board settings ***(important for proper operation)***
    - Ahora en esta parte veremos como hacer funcionar el dispositivo o "nodo". Una vez que estemos conectados con el dispotivo adquirido por medio de la app de Meshtastic, en primer lugar vamos a ir al apartado de `Settings`, y entraremos a la opcion de `LoRa`. Aqui vamos a
