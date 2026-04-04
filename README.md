@@ -205,6 +205,7 @@ In the following sections, we will delve deeper into the configuration and optim
 <p align="center">
    <img width="615" height="225" alt="image" src="https://github.com/user-attachments/assets/07d156f6-f08c-4a0a-86a7-2cd91423eb0c" />
 </p>
+<br>
    
 - ⚙️ Board settings ***(important for proper operation)***
    - Esta parte es igual a la del dispositivo mesh `Heltec t114 v2`. Por lo que si sos de Argentina, debes de seguir las mismas configuraciones.
