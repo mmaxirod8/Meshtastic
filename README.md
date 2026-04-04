@@ -210,7 +210,7 @@ In the following sections, we will delve deeper into the configuration and optim
 <br>
    
 - ⚙️ Board settings ***(important for proper operation)***
-   - Esta parte es igual a la del dispositivo mesh `Heltec t114 v2`. Por lo que si sos de Argentina, debes de seguir las mismas configuraciones.
+   - This section is the same as the one above, for the Heltec t114 v2 mesh device. Therefore, if you are in Argentina, you should follow the same settings mentioned previously.
 
 ### ⚡Advantages
 - Very small hardware size
