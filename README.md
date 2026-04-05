@@ -10,7 +10,12 @@
 
 
 
-Welcome to this guide about ***Meshtastic***. This repository aims to explain the fundamentals of this decentralized communication technology and document the configuration of specific nodes.
+## Welcome to this guide about ***Meshtastic***. This repository aims to explain the fundamentals of this decentralized communication technology and document the configuration of specific nodes.
+
+---
+
+### 🙌 Pueden traducir este y los demas repositorios con el traductor de google 🙌
+
 ---
 
 ## 🔎 ¿What is Meshtastic?
