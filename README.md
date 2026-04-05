@@ -98,8 +98,11 @@ In the following sections, we will delve deeper into the configuration and optim
    - *Optional step [Once the board has been flashed, it can be disconnected from the PC]*  
    - After that, to obtain the Meshtastic configuration software, we will download the Meshtastic app from the Play Store on our mobile phone, or we can directly access it from our PC at: https://client.meshtastic.org
    - If we choose to configure the board via cell phone, we turn on our phone's Bluetooth (there are also options via USB cable and internet on the phone). If we selected PC, we can simply configure it using a USB cable (on a PC, it can also be done via Bluetooth or HTTP).
+     --> On cellphone
+   
+     --> On PC
         <p align="center">
-        <img width="750" height="800" alt="image" src="https://github.com/user-attachments/assets/e44b108b-ee8f-4a3c-bdcd-740c9b57c742" />
+   <img width="1808" height="325" alt="571588472-e44b108b-ee8f-4a3c-bdcd-740c9b57c742(1)" src="https://github.com/user-attachments/assets/fb7ea136-f5c2-4215-a214-d1f00b60fd54" />
         </p>  
    - If you disconnected the board after flashing, in the *Optional Step*, you must power it again using the USB-C cable (you can power it this time through the USB 2.0 ports of your PC as at the beginning or through a portable battery, or something that provides 5V).
     
