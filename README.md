@@ -104,14 +104,17 @@ In the following sections, we will delve deeper into the configuration and optim
    - If we choose to configure the board via cell phone, we turn on our phone's Bluetooth (there are also options via USB cable and internet on the phone). If we selected PC, we can simply configure it using a USB cable (on a PC, it can also be done via Bluetooth or HTTP).
      
      --> Connections type on cell phone (Bluetooth, Network & Serial)
-        <p align="center">
-        <img width="314" height="252" alt="572789225-ec389f05-ea8f-4707-bf0c-ec3644b65645(1)" src="https://github.com/user-attachments/assets/27985b4e-a6d8-4d1f-9580-d357945ea234" />
-        </p>  
      
-     --> Connections type on PC (HTTP, Bluetooth & Serial)
         <p align="center">
-        <img width="1808" height="325" alt="571588472-e44b108b-ee8f-4a3c-bdcd-740c9b57c742(1)" src="https://github.com/user-attachments/assets/fb7ea136-f5c2-4215-a214-d1f00b60fd54" />
+        <img width="314" height="51" alt="572789225-ec389f05-ea8f-4707-bf0c-ec3644b65645(2)" src="https://github.com/user-attachments/assets/d6ac35a9-93d3-4c31-9e4d-95d99729f183" />
         </p>  
+        
+     --> Connections type on PC (HTTP, Bluetooth & Serial)
+
+      <p align="center">
+        <img width="484" height="92" alt="571588472-e44b108b-ee8f-4a3c-bdcd-740c9b57c742(2)" src="https://github.com/user-attachments/assets/41406ee1-292e-4e23-92cb-e795a250769e" />
+        </p>  
+      
    - If you disconnected the board after flashing, in the *Optional Step*, you must power it again using the USB-C cable (you can power it this time through the USB 2.0 ports of your PC as at the beginning or through a portable battery, or something that provides 5V).
     
    - Open the Meshtastic app (on your phone) and your device should appear in the `Connection` section, ready to connect via Bluetooth (or other options); it usually has a name like *"Meshtastic_XXXX"*. On a PC, go to `Add connection` (select the method you want to use to connect the device), and then click `Connect`.
@@ -201,12 +204,12 @@ In the following sections, we will delve deeper into the configuration and optim
      
      --> Connections type on cell phone  (Bluetooth, Network & Serial)
         <p align="center">
-        <img width="314" height="252" alt="572789225-ec389f05-ea8f-4707-bf0c-ec3644b65645(1)" src="https://github.com/user-attachments/assets/27985b4e-a6d8-4d1f-9580-d357945ea234" />
+        <img width="314" height="51" alt="572789225-ec389f05-ea8f-4707-bf0c-ec3644b65645(2)" src="https://github.com/user-attachments/assets/f8f4a5dc-28ad-420c-a987-fc675efa0827" />
         </p>  
      
      --> Connections type on PC (HTTP, Bluetooth & Serial)
         <p align="center">
-        <img width="1808" height="325" alt="571588472-e44b108b-ee8f-4a3c-bdcd-740c9b57c742(1)" src="https://github.com/user-attachments/assets/fb7ea136-f5c2-4215-a214-d1f00b60fd54" />
+        <img width="484" height="92" alt="571588472-e44b108b-ee8f-4a3c-bdcd-740c9b57c742(2)" src="https://github.com/user-attachments/assets/f8514d62-85b7-4f7e-93c8-93c133294fd8" />
         </p>  
    - If you disconnected the board after flashing, in the *Optional Step*, you must power it again using the USB-C cable (you can power it this time through the USB 2.0 ports of your PC as at the beginning or through a portable battery, or something that provides 5V).
     
