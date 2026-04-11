@@ -262,7 +262,8 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
 - Built-in (detachable) LoRa module
 - USB-C power input
 
-### 🎯 ¿Que funcionalidades nuevas le podemos agregar?
+### 🎯 ¿What new features can we add?
 
+<br>
 
 ### I hope you found it useful and entertaining. If so, leave a star ⭐ Best wishes and much success!
