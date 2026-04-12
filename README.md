@@ -72,6 +72,7 @@ In the following sections, we will delve deeper into the configuration and optim
 
 ### 🛒 Things we need
 
+- A `PC` for the firmware flashing & (if you want/for test) for power
 
 ### ❓ How do we configure it?
 
