@@ -189,6 +189,12 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
 
 ### 🛒 Things we need
 
+- A `PC` for the firmware flashing & for power
+- The `Xiao nrf52840 Kit` module
+- `Phone` or `PC` for connectivity & configuration (GPS, MQTT, Channels, etc.)
+- `Micro USB cable`
+- ***[Optional]*** For power we can use a `Lipo Battery`
+
 
 ### ❓ How do we configure it?
 
