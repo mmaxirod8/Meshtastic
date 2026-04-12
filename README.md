@@ -181,6 +181,9 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
 <img width="150" height="200" alt="image" src="https://github.com/user-attachments/assets/3354f50d-0bc4-4644-bf62-ac7d54137ba6" />
 </p>
 
+### 🛒 Things we need
+
+
 ### ❓ How do we configure it?
 
 - 👉 First, we can get this mesh device in this following page (from Argentina):
