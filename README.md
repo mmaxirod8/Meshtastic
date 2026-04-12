@@ -72,10 +72,11 @@ In the following sections, we will delve deeper into the configuration and optim
 
 ### 🛒 Things we need
 
-- A `PC` for the firmware flashing & (if you want/for test) for power
+- A `PC` for the firmware flashing & for power
 - The `Heltec t114 v2 (with screen)` module
 - `Phone` or `PC` for connectivity & configuration (GPS, MQTT, Channels, etc.)
 - `Micro USB cable`
+- ***[Optional]*** For power we can use a Lipo Battery
 
 
 ### ❓ How do we configure it?
