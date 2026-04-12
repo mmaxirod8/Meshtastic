@@ -70,6 +70,9 @@ In the following sections, we will delve deeper into the configuration and optim
 <img width="214" height="99" alt="image" src="https://github.com/user-attachments/assets/8528d90b-ed64-4ae9-bb28-11259c6f82cb" />
 </p>
 
+### 🛒 Things we need
+
+
 ### ❓ How do we configure it?
 
 - 👉 First, we can get this mesh device in these following pages (from Argentina):
