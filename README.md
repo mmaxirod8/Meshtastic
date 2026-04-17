@@ -185,9 +185,9 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
    - `Paneles Solares`: Se puede conectar un panel de 5V a 6V (máx 1W-2W) directamente al conector solar de 1.25mm y 2 pines. No se necesita un controlador de carga externo.
    - `Baterías LiPo/Li-ion`: Soporta celdas de 3.7V. Es posible escalar desde la estándar de 800-1100mAh hasta celdas 18650 o 21700 de 5000mAh para autonomía extendida.
 - ***Sensores via I2C:***
-   - `BME280 / BME680`:
-   - `INA219`:
-   - `SHT31`:
+   - `BME280 / BME680`: Para medir temperatura, humedad, presión atmosférica y (en el caso del 680) calidad del aire. Es ideal para estaciones meteorológicas remotas.
+   - `INA219`: Útil si planeas monitorear el voltaje y consumo de corriente, especialmente en instalaciones solares.
+   - `SHT31`: Una alternativa de alta precisión para temperatura y humedad.
 - ***Mejoras de RF (Antenas y Conectores):***
 La antena de "resorte" que suele venir de fábrica es limitada. Para mejorar el alcance:
    - `Pigtail IPEX (U.FL) a SMA`: Permite usar antenas externas de mayor ganancia.
@@ -320,16 +320,27 @@ Recomendado: CN3065. Es el estándar para solar "mini" porque soporta las fluctu
        Tambien se necesitaria un `Diodo Schottky` (como un 1N5817). Este se coloca entre el panel y el cargador. Evita el "flujo inverso", es decir, que la batería intente "alimentar" al panel solar durante la noche, lo cual la agotaría.
 
        Y ademas, `capacitores electrolíticos`. Se coloca uno (de 100µF o 470µF) en la entrada del cargador solar ayuda a estabilizar el voltaje cuando pasan nubes rápidas.
-    - `Baterías LiPo`
+    - `Baterías LiPo`: Para las baterías, el requerimiento principal es que sean 1S (una sola celda) con un voltaje nominal de 3.7V.
+
+        - La `Celda (Batería)`: Capacidad: Desde 400mAh (vuelo/compacto) hasta 5000mAh (fijo/estación).
+
+
+        - `Circuito de Protección (PCM/BMS)`: CRÍTICO. Muchas LiPo vienen "desnudas". Se necesita que tengan una pequeña plaquita en la punta con los chips DW01 y 8205A.
+             Función: Corta la energía si el voltaje baja de 2.4V (evita que la batería muera permanentemente) o si hay un cortocircuito.
+
+        - `Termistor NTC` (Opcional pero recomendado): Si el nodo va a estar al sol (dentro de una caja o estructura), el calor puede ser peligroso. Algunos cargadores tienen un pin "TEMP" que, conectado a un termistor pegado a la batería, detiene la carga si la temperatura supera los 45°C - 50°C.
+
+        - `Conectores JST-PH` (2.0mm) o `SH` (1.25mm): Asegurarse de que la polaridad sea la correcta. Dato vital: El estándar de cables rojo/negro en baterías chinas a veces viene invertido respecto a lo que esperan las placas Heltec o Seeed. Medir con multímetro antes de enchufar.
     
 - ***Sensores Grove (Plug & Play):***
-El ecosistema de Seeed utiliza el estándar Grove. Al tener conectores dedicados en la base, puedes agregar:
+El ecosistema de Seeed utiliza el estándar Grove. Al tener conectores dedicados en la base, se pueden agregar:
     - `Barómetro/Altímetro (BMP280 / MS5607)`: Crucial para medir altitud con precisión si el nodo va a estar en movimiento vertical o en aplicaciones donde la presión atmosférica es un dato clave.
-    - `Acelerómetro/Giroscopio (ICM20689)`: Si usas la versión "Sense" del XIAO, ya tienes uno integrado, pero uno externo de mayor rango (como un ADXL345) es útil para medir impactos o vibraciones fuertes.
+    - `Acelerómetro/Giroscopio (ICM20689)`: Si se usa la versión "Sense" del XIAO, ya viene uno integrado, pero uno externo de mayor rango (como un ADXL345) es útil para medir impactos o vibraciones fuertes.
 - ***Mejoras de RF (Antenas y Conectores):***
 Al no tener una antena integrada de gran alcance, el uso de un pigtail U.FL a SMA es obligatorio para conectar:
     - `Antenas Cloverleaf`: Si el nodo va a estar rotando o cambiando de orientación constantemente, estas antenas minimizan la pérdida de señal por polarización.
-    - `Antenas de muelle (Spring)`: Para mantener el tamaño lo más pequeño posible en dispositivos "wearables".
+    - `Antenas de muelle (Spring)`: Para mantener el tamaño lo más pequeño posible en dispositivos "wearables" (portables).
+    - `Antena Modem Gsm Gprs 2dbi U.fl Sma Cable 15cm`
 - ***Interfaz de Usuario y Alertas:***
    - `Buzzer Pasivo`: Se puede configurar un buzzer para recibir alertas sonoras cuando llegue un mensaje o un nodo nuevo se una a la red.
    - `Botones Adicionales`: Se puede mapear otros pines GPIO para funciones de navegación en la pantalla.
