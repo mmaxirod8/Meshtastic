@@ -180,7 +180,21 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
 <br>
 
 ### 📈 ¿What new features can we add?
-
+- ***GPS Module:*** En los dispositivos Meshtastic podemos utilizar como GPS a nuestros dispositivos conectados (celular o PC). Sin embargo, existe la posibilidad de aplcarles su propio sistema de geolocalizacion para que no dependan de otro dispositivo al momento de hacerlos "portables". Es por ello que se les puede agregar un `GPS Module` para identificar sus coordenadas y otros datos. En el caso de la `Heltec t114 v2` viene con un conector de 8 pines especificamente para modulos de GPS/GNSS (como el `L76K GNSS`).
+- ***Sistema de Energia:*** 
+   - `Paneles Solares`: Se puede conectar un panel de 5V a 6V (máx 1W-2W) directamente al conector solar de 1.25mm y 2 pines. No se necesita un controlador de carga externo.
+   - `Baterías LiPo/Li-ion`: Soporta celdas de 3.7V. Es posible escalar desde la estándar de 800-1100mAh hasta celdas 18650 o 21700 de 5000mAh para autonomía extendida.
+- ***Sensores via I2C:***
+   - `BME280 / BME680`:
+   - `INA219`:
+   - `SHT31`:
+- ***Mejoras de RF (Antenas y Conectores):***
+La antena de "resorte" que suele venir de fábrica es limitada. Para mejorar el alcance:
+   - `Pigtail IPEX (U.FL) a SMA`: Permite usar antenas externas de mayor ganancia.
+   - `Antenas Dipolo o Fibra de Vidrio`: Si el nodo será fijo (Router), una antena de 3dBi a 5dBi optimizada para la frecuencia de tu zona (típicamente 915MHz en Argentina) marcará una diferencia notable en el radio de cobertura.
+- ***Interfaz de Usuario y Alertas:***
+   - `Buzzer Pasivo`: Se puede configurar un buzzer para recibir alertas sonoras cuando llegue un mensaje o un nodo nuevo se una a la red.
+   - `Botones Adicionales`: Aunque trae dos botones físicos, se puede mapear otros pines GPIO para funciones de navegación en la pantalla TFT de 1.14".
 
 <br>
 <br>
@@ -291,7 +305,34 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
 
 <br>
 
-### 🎯 ¿What new features can we add?
+### 📈 ¿What new features can we add?
+- ***XIAO Expansion Board:***
+Es la pieza clave para agregar periféricos sin soldar:
+    - `Pantalla OLED (0.96")`: Ya viene con un zócalo para conectar una pantalla SSD1306, fundamental para ver mensajes y estado del nodo.
+    - `RTC (Reloj en Tiempo Real)`: Incluye un chip PCF8563 que permite mantener la hora exacta incluso si el dispositivo se reinicia o pierde conexión.
+    - `Slot MicroSD`: Vital si planeas hacer Data Logging (registrar posiciones GPS o lecturas de sensores durante un trayecto o vuelo).
+    
+- ***GPS Module:*** En los dispositivos Meshtastic podemos utilizar como GPS a nuestros dispositivos conectados (celular o PC). Sin embargo, existe la posibilidad de aplcarles su propio sistema de geolocalizacion para que no dependan de otro dispositivo al momento de hacerlos "portables". Es por ello que se les puede agregar un `GPS Module` para identificar sus coordenadas y otros datos. En el caso de la `Seed Studio Xiao nrf52840 Kit` requiere un módulo Grove GPS (`Grove - GPS Air530Z`, de alta precisión y bajo consumo, ideal para que el nodo transmita su ubicación) o soldar a pines UART (TX/RX), por ejemplo al `L76K GNSS`.
+- ***Sistemas de Energia:***
+    - `Paneles solares`: Para estos microcontroladores, lo ideal es un panel de 5V a 6V. Entre 1W y 2W es suficiente para mantener un nodo nRF52840 encendido 24/7. Monocristalino (rígido) o Pet/ETFE (flexible para aerodinámica o bajo peso). Para esto requiere de un `Controlador de Carga Solar (IC)`, ya que no se puede conectar el panel directo a la batería, para esto se necesita un chip que gestione el protocolo de carga Li-ion.
+Recomendado: CN3065. Es el estándar para solar "mini" porque soporta las fluctuaciones de corriente del sol mucho mejor que un TP4056 común.
+
+       Tambien se necesitaria un `Diodo Schottky` (como un 1N5817). Este se coloca entre el panel y el cargador. Evita el "flujo inverso", es decir, que la batería intente "alimentar" al panel solar durante la noche, lo cual la agotaría.
+
+       Y ademas, `capacitores electrolíticos`. Se coloca uno (de 100µF o 470µF) en la entrada del cargador solar ayuda a estabilizar el voltaje cuando pasan nubes rápidas.
+    - `Baterías LiPo`
+    
+- ***Sensores Grove (Plug & Play):***
+El ecosistema de Seeed utiliza el estándar Grove. Al tener conectores dedicados en la base, puedes agregar:
+    - `Barómetro/Altímetro (BMP280 / MS5607)`: Crucial para medir altitud con precisión si el nodo va a estar en movimiento vertical o en aplicaciones donde la presión atmosférica es un dato clave.
+    - `Acelerómetro/Giroscopio (ICM20689)`: Si usas la versión "Sense" del XIAO, ya tienes uno integrado, pero uno externo de mayor rango (como un ADXL345) es útil para medir impactos o vibraciones fuertes.
+- ***Mejoras de RF (Antenas y Conectores):***
+Al no tener una antena integrada de gran alcance, el uso de un pigtail U.FL a SMA es obligatorio para conectar:
+    - `Antenas Cloverleaf`: Si el nodo va a estar rotando o cambiando de orientación constantemente, estas antenas minimizan la pérdida de señal por polarización.
+    - `Antenas de muelle (Spring)`: Para mantener el tamaño lo más pequeño posible en dispositivos "wearables".
+- ***Interfaz de Usuario y Alertas:***
+   - `Buzzer Pasivo`: Se puede configurar un buzzer para recibir alertas sonoras cuando llegue un mensaje o un nodo nuevo se una a la red.
+   - `Botones Adicionales`: Se puede mapear otros pines GPIO para funciones de navegación en la pantalla.
 
 <br>
 <br>
