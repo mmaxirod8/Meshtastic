@@ -182,7 +182,7 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
 ### 📈 ¿What new features can we add?
 - ***GPS Module:*** En los dispositivos Meshtastic podemos utilizar como GPS a nuestros dispositivos conectados (celular o PC). Sin embargo, existe la posibilidad de aplcarles su propio sistema de geolocalizacion para que no dependan de otro dispositivo al momento de hacerlos "portables". Es por ello que se les puede agregar un `GPS Module` para identificar sus coordenadas y otros datos. En el caso de la `Heltec t114 v2` viene con un conector de 8 pines especificamente para modulos de GPS/GNSS (como el `L76K GNSS`).
 - ***Sistema de Energia:*** 
-   - `Paneles Solares`: Se puede conectar un panel de 5V a 6V (máx 1W-2W) directamente al conector solar de 1.25mm y 2 pines. No se necesita un controlador de carga externo.
+   - `Paneles Solares + Bateria`: Se puede conectar un panel de 5V a 6V (máx 1W-2W) directamente al conector solar de 1.25mm y 2 pines. No se necesita un controlador de carga externo.
    - `Baterías LiPo/Li-ion`: Soporta celdas de 3.7V. Es posible escalar desde la estándar de 800-1100mAh hasta celdas 18650 o 21700 de 5000mAh para autonomía extendida.
 - ***Sensores via I2C:***
    - `BME280 / BME680`: Para medir temperatura, humedad, presión atmosférica y (en el caso del 680) calidad del aire. Es ideal para estaciones meteorológicas remotas.
@@ -314,18 +314,18 @@ Es la pieza clave para agregar periféricos sin soldar:
     
 - ***GPS Module:*** En los dispositivos Meshtastic podemos utilizar como GPS a nuestros dispositivos conectados (celular o PC). Sin embargo, existe la posibilidad de aplcarles su propio sistema de geolocalizacion para que no dependan de otro dispositivo al momento de hacerlos "portables". Es por ello que se les puede agregar un `GPS Module` para identificar sus coordenadas y otros datos. En el caso de la `Seed Studio Xiao nrf52840 Kit` requiere un módulo Grove GPS (`Grove - GPS Air530Z`, de alta precisión y bajo consumo, ideal para que el nodo transmita su ubicación) o soldar a pines UART (TX/RX), por ejemplo al `L76K GNSS`.
 - ***Sistemas de Energia:***
-    - `Paneles solares`: Para estos microcontroladores, lo ideal es un panel de 5V a 6V. Entre 1W y 2W es suficiente para mantener un nodo nRF52840 encendido 24/7. Monocristalino (rígido) o Pet/ETFE (flexible para aerodinámica o bajo peso). Para esto requiere de un `Controlador de Carga Solar (IC)`, ya que no se puede conectar el panel directo a la batería, para esto se necesita un chip que gestione el protocolo de carga Li-ion.
+    - `Paneles solares + bateria`: Para estos microcontroladores, lo ideal es un panel de 5V a 6V. Entre 1W y 2W es suficiente para mantener un nodo nRF52840 encendido 24/7. Monocristalino (rígido) o Pet/ETFE (flexible para aerodinámica o bajo peso). Para esto requiere de un `Controlador de Carga Solar (IC)`, ya que no se puede conectar el panel directo a la batería, para esto se necesita un chip que gestione el protocolo de carga.
 Recomendado: CN3065. Es el estándar para solar "mini" porque soporta las fluctuaciones de corriente del sol mucho mejor que un TP4056 común.
 
        Tambien se necesitaria un `Diodo Schottky` (como un 1N5817). Este se coloca entre el panel y el cargador. Evita el "flujo inverso", es decir, que la batería intente "alimentar" al panel solar durante la noche, lo cual la agotaría.
 
        Y ademas, `capacitores electrolíticos`. Se coloca uno (de 100µF o 470µF) en la entrada del cargador solar ayuda a estabilizar el voltaje cuando pasan nubes rápidas.
-    - `Baterías LiPo`: Para las baterías, el requerimiento principal es que sean 1S (una sola celda) con un voltaje nominal de 3.7V.
+       
+    - `Baterías LiPo/Li-ion`: Para las baterías, el requerimiento principal es que sean 1S (una sola celda) con un voltaje nominal de 3.7V.
 
         - La `Celda (Batería)`: Capacidad: Desde 400mAh (vuelo/compacto) hasta 5000mAh (fijo/estación).
 
-
-        - `Circuito de Protección (PCM/BMS)`: CRÍTICO. Muchas LiPo vienen "desnudas". Se necesita que tengan una pequeña plaquita en la punta con los chips DW01 y 8205A.
+        - `Circuito de Protección (PCM/BMS) para baterias LiPo` (En algunos casos): Muchas LiPo vienen "desnudas". Se necesita que tengan una pequeña plaquita en la punta con los chips DW01 y 8205A.
              Función: Corta la energía si el voltaje baja de 2.4V (evita que la batería muera permanentemente) o si hay un cortocircuito.
 
         - `Termistor NTC` (Opcional pero recomendado): Si el nodo va a estar al sol (dentro de una caja o estructura), el calor puede ser peligroso. Algunos cargadores tienen un pin "TEMP" que, conectado a un termistor pegado a la batería, detiene la carga si la temperatura supera los 45°C - 50°C.
