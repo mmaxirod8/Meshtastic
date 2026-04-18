@@ -352,6 +352,9 @@ Al no tener una antena integrada de gran alcance, el uso de un pigtail U.FL a SM
 <br>
 
 ### 🔹 Other Meshtastic models
+<p align="center">
+<img width="210" height="210" alt="MeetUps" src="https://github.com/user-attachments/assets/de9f078d-02fb-4260-952c-880a839094af" />
+</p>
 
 <br>
 
