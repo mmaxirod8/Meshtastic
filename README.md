@@ -53,7 +53,9 @@ The system is based on two fundamental pillars:
 
 📡  **Mesh Topology:** Here's the magic. Each device (node) in the network not only sends and receives its own messages, but also acts as a repeater for the others. If Node A wants to talk to Node C, but they are far apart, the message can hop through Node B, which is in between. The more nodes there are, the more robust and extensive the network becomes.
 
-- `Meshtastic Maps`: These are web-based platforms (like MeshMap or En some regions, MQTT-linked maps) that show the location of "public" nodes. If your device has GPS and you opt-in to sharing, your node will appear on a global map, helping others see the network's coverage in their area.
+- `Meshtastic Maps`: These are web-based platforms (like MeshMap or En some regions, MQTT-linked maps) that show the location of "public" nodes. If your device has GPS and you opt-in to sharing, your node will appear on a global map, helping others see the network's coverage in their area. Some maps are:
+     - Liam Cottle: https://meshtastic.liamcottle.net/
+     - MeshMap: https://meshmap.net/
 - `MQQT` (Message Queuing Telemetry Transport): This is a bridge between the radio world and the internet. If one node in a mesh is connected to a phone with internet or a Wi-Fi gateway, it can push the local mesh traffic to an MQTT Broker. As result, you can talk to a mesh network in another city or country as if they were right next to you, effectively linking "islands" of radio users together via the web.
 
 ## 🚀 ¿How can we start? --> General Steps
@@ -369,6 +371,60 @@ Al no tener una antena integrada de gran alcance, el uso de un pigtail U.FL a SM
 <p align="center">
 <img width="210" height="210" alt="MeetUps" src="https://github.com/user-attachments/assets/de9f078d-02fb-4260-952c-880a839094af" />
 </p>
+
+- Heltec WiFi LoRa 32 (V3)
+   - Procesador: ESP32-S3.
+   - Pantalla: OLED de 0.96 pulgadas integrada.
+   - Características: Incluye carga de batería LiPo y Wi-Fi/Bluetooth.
+   - Punto débil: Consumo de energía moderado (no es el mejor para baterías pequeñas).
+
+- Lilygo T-Beam (V1.1 / V1.2)
+El "clásico" todo-en-uno que definió los inicios de la red.
+   - Procesador: ESP32.
+   - GPS: Módulo Neo-6M o Neo-M8N integrado.
+   - Alimentación: Incluye un zócalo para batería 18650 en la parte posterior.
+   - Características: Muy robusto y fácil de llevar en la mochila sin cajas externas complejas.
+
+- LILYGO® T-Lora Pager
+   - MCU
+      - ESP32-S3 (WiFi & Bluetooth 5 LE)
+   - LoRa Transceiver
+      - Semtech LR1121
+   - QWERTY keyboard
+   - AI support IMU (BHI260AP)
+   - 2.33-inch long screen (222 x 480 resolution)
+   - U-blox GPS module (MIA-M10Q)
+   - RFID/NFC + RTC circuitry
+   - TI Power Management Monitoring Chipset
+   - ES8311 (microphone/speaker/headphone jack) Encoder + Keypad
+
+- LILYGO® T-Deck
+   - MCU
+      - ESP32-S3FN16R8 (WiFi & Bluetooth 5 LE)
+      - ESP32-C3 (For keyboard only)
+   - LoRa Transceiver
+      - Semtech SX1262
+   - LILYGO® backlit T-Keyboard
+   - Trackball
+   - 2.8 inch ST7789 SPI Interface IPS LCD (Resolution: 320 x 240)
+   - I2S Speaker/Microphone
+
+
+- RAKwireless WisBlock (RAK4631)
+Considerado el "estándar de oro" para nodos serios y estaciones solares.
+   - Procesador: nRF52840 (Ultra bajo consumo).
+   - Modularidad: Diseño tipo "LEGO"; puedes añadir sensores de clima, GPS o pantallas mediante módulos.
+   - Características: Consume una fracción de la energía de los modelos ESP32.
+
+- Lilygo T-Echo
+   - Procesador: nRF52840.
+   - Pantalla: E-Ink (Tinta electrónica) de 1.54 pulgadas, visible bajo el sol.
+   - Características: Incluye caja protectora, GPS y batería interna de fábrica.
+
+- Station G1 (Nano G1 Explorer)
+   - Procesador: ESP32.
+   - Carcasa: Aleación de aluminio robusta.
+   - Características: Conector SMA para antena externa de alta ganancia y puerto USB-C frontal.
 
 <br>
 
