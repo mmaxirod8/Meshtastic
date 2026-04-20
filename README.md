@@ -13,6 +13,7 @@
 
 ## Welcome to this guide about ***Meshtastic***. This repository aims to explain the fundamentals of this decentralized communication technology and document the configuration of specific nodes.
 
+<br>
 
 ## 🔎 ¿What is Meshtastic?
 
@@ -20,15 +21,23 @@
 
 Unlike traditional communications that rely on cell towers or central Wi-Fi routers, Meshtastic allows devices to communicate directly with each other. It's like having a private, encrypted text messaging network that operates completely independently, without needing the internet or carrier subscriptions.
 
+<br>
+
 ## 🎯 ¿What is it used for?
 
 The flexibility of not depending on external infrastructure makes Meshtastic ideal for multiple scenarios:
 
 * **Off-Grid Communications:** Maintain contact in areas without cell phone coverage (mountains, rural areas or isolated routes).
+
 * **Security and Privacy:** Featuring AES256 encryption, it is used by communities and groups that require secure and auditable communication channels.
+
 * **Emergency Cases:** Rapid deployment of communication networks after natural disasters where traditional infrastructure has collapsed.
+
 * **Events and Coordination:** Keeping a team connected at festivals, conferences, or large venues.
+
 * **RF experimentation:** Telemetry tests, antenna range and network topologies in unlicensed bands (such as 915 MHz or 433 MHz, depending on the region).
+
+<br>
 
 ## ⚙️ ¿How it works?
 
@@ -45,6 +54,8 @@ The system is based on two fundamental pillars:
     - Urban: ≈ 1–5 km (due to buildings/interference).
     - Rural/Line of Sight: ≈ 10–30 km.
     - Record-breaking: With clear line of sight (mountain top to mountain top), distances can exceed ≈ 100+ km.
+    
+<br>
 
 📡  **Mesh Topology:** Here's the magic. Each device (node) in the network not only sends and receives its own messages, but also acts as a repeater for the others. If Node A wants to talk to Node C, but they are far apart, the message can hop through Node B, which is in between. The more nodes there are, the more robust and extensive the network becomes.
 
@@ -52,6 +63,8 @@ The system is based on two fundamental pillars:
      - Liam Cottle: https://meshtastic.liamcottle.net/
      - MeshMap: https://meshmap.net/
 - `MQQT` (Message Queuing Telemetry Transport): This is a bridge between the radio world and the internet. If one node in a mesh is connected to a phone with internet or a Wi-Fi gateway, it can push the local mesh traffic to an MQTT Broker. As result, you can talk to a mesh network in another city or country as if they were right next to you, effectively linking "islands" of radio users together via the web.
+
+<br>
 
 ## 🚀 ¿How can we start? --> General Steps
 
@@ -62,7 +75,7 @@ Getting started with Meshtastic is accessible and requires few components. In sh
 3.  ***Use the Meshtastic App´s:*** Install the Meshtastic app on your smartphone (iOS or Android), or visit the Meshtastic setup website for PC (https://client.meshtastic.org).
 4.  ***Pair and Configure:*** Connect your Meshtastic device to your phone or your PC via Bluetooth, Network or Serial. From the app/website, you can configure your region (legal frequency), set a username, as others settings that we are going to look up, and then, we can start sending messages to the mesh network.
 
----
+<br>
 
 ## 🛠️ Hardware and Specific Configurations
 
@@ -184,21 +197,33 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
 <br>
 
 ### 📈 ¿What new features can we add?
+
 - ***GPS Module:*** En los dispositivos Meshtastic podemos utilizar como GPS a nuestros dispositivos conectados (celular o PC). Sin embargo, existe la posibilidad de aplcarles su propio sistema de geolocalizacion para que no dependan de otro dispositivo al momento de hacerlos "portables". Es por ello que se les puede agregar un `GPS Module` para identificar sus coordenadas y otros datos. En el caso de la `Heltec t114 v2` viene con un conector de 8 pines especificamente para modulos de GPS/GNSS (como el `L76K GNSS`).
+
 - ***Sistema de Energia:*** 
    - `Paneles Solares + Bateria`: Se puede conectar un panel de 5V a 6V (máx 1W-2W) directamente al conector solar de 1.25mm y 2 pines. No se necesita un controlador de carga externo. En adicion, debemos utilizar una bateria LiPo/Li-ion para almacenar energia, para las cuales, este modelo Heltec tambien incluye un conector de bateria de 1.25mm y 2 pines.
 
-Solar Panel Connection diagram
+     Solar Panel Connection diagram
    
    - `Baterías LiPo/Li-ion`: Soporta celdas de 3.7V. Es posible escalar desde la estándar de 800-1100mAh hasta celdas 18650 o 21700 de 5000mAh para autonomía extendida.
+   
+        - `Circuito de Protección (PCM/BMS) para baterias LiPo` (En algunos casos): Muchas LiPo vienen "desnudas". Se necesita que tengan una pequeña plaquita en la punta con los chips DW01 y 8205A.
+             Función: Corta la energía si el voltaje baja de 2.4V (evita que la batería muera permanentemente) o si hay un cortocircuito.
+
+        - `Termistor NTC` (Opcional pero recomendado): Si el nodo va a estar al sol (dentro de una caja o estructura), el calor puede ser peligroso. Algunos cargadores tienen un pin "TEMP" que, conectado a un termistor pegado a la batería, detiene la carga si la temperatura supera los 45°C - 50°C.
+
+        - `Conectores JST-PH` (2.0mm) o `SH` (1.25mm): Asegurarse de que la polaridad sea la correcta. Dato vital: El estándar de cables rojo/negro en baterías chinas a veces viene invertido respecto a lo que esperan las placas Heltec o Seeed. Medir con multímetro antes de enchufar.
+   
 - ***Sensores via I2C:***
    - `BME280 / BME680`: Para medir temperatura, humedad, presión atmosférica y (en el caso del 680) calidad del aire. Es ideal para estaciones meteorológicas remotas.
    - `INA219`: Útil si planeas monitorear el voltaje y consumo de corriente, especialmente en instalaciones solares.
    - `SHT31`: Una alternativa de alta precisión para temperatura y humedad.
+   
 - ***Mejoras de RF (Antenas y Conectores):***
 La antena de "resorte" que suele venir de fábrica es limitada. Para mejorar el alcance:
    - `Pigtail IPEX (U.FL) a SMA`: Permite usar antenas externas de mayor ganancia.
    - `Antenas Dipolo o Fibra de Vidrio`: Si el nodo será fijo (Router), una antena de 3dBi a 5dBi optimizada para la frecuencia de tu zona (típicamente 915MHz en Argentina) marcará una diferencia notable en el radio de cobertura.
+   
 - ***Interfaz de Usuario y Alertas:***
    - `Buzzer Pasivo`: Se puede configurar un buzzer para recibir alertas sonoras cuando llegue un mensaje o un nodo nuevo se una a la red.
    - `Botones Adicionales`: Aunque trae dos botones físicos, se puede mapear otros pines GPIO para funciones de navegación en la pantalla TFT de 1.14".
@@ -294,6 +319,7 @@ La antena de "resorte" que suele venir de fábrica es limitada. Para mejorar el 
 <p align="center">
    <img width="615" height="225" alt="image" src="https://github.com/user-attachments/assets/07d156f6-f08c-4a0a-86a7-2cd91423eb0c" />
 </p>
+
 <br>
    
 - 💽 Board settings ***(important for proper operation)***
@@ -332,9 +358,7 @@ Recomendado: CN3065. Es el estándar para solar "mini" porque soporta las fluctu
        <img width="1280" height="720" alt="Conexion de baterias en parte trasera" src="https://github.com/user-attachments/assets/f408ce6e-bf67-434a-84ff-1ad43b9bb5af" />
        </p>
        
-    - `Baterías LiPo/Li-ion`: Para las baterías, el requerimiento principal es que sean 1S (una sola celda) con un voltaje nominal de 3.7V.
-
-        - La `Celda (Batería)`: Capacidad: Desde 400mAh (vuelo/compacto) hasta 5000mAh (fijo/estación).
+    - `Baterías LiPo/Li-ion`: Para las baterías, el requerimiento principal es que sean 1S (una sola celda) con un voltaje nominal de 3.7V. Con capacidad: Desde 400mAh (vuelo/compacto) hasta 5000mAh (fijo/estación).
 
         - `Circuito de Protección (PCM/BMS) para baterias LiPo` (En algunos casos): Muchas LiPo vienen "desnudas". Se necesita que tengan una pequeña plaquita en la punta con los chips DW01 y 8205A.
              Función: Corta la energía si el voltaje baja de 2.4V (evita que la batería muera permanentemente) o si hay un cortocircuito.
@@ -367,20 +391,30 @@ Al no tener una antena integrada de gran alcance, el uso de un pigtail U.FL a SM
 <img width="210" height="210" alt="MeetUps" src="https://github.com/user-attachments/assets/de9f078d-02fb-4260-952c-880a839094af" />
 </p>
 
-- Heltec WiFi LoRa 32 (V3)
+<br>
+
+👉 ***Pueden ver mas dispositivos compatibles con Meshtastic (como los de abajo) en:*** https://meshtastic.org/docs/hardware/devices/
+
+<br>
+
+- `Heltec WiFi LoRa 32 (V3)`
    - Procesador: ESP32-S3.
    - Pantalla: OLED de 0.96 pulgadas integrada.
    - Características: Incluye carga de batería LiPo y Wi-Fi/Bluetooth.
    - Punto débil: Consumo de energía moderado (no es el mejor para baterías pequeñas).
 
-- Lilygo T-Beam (V1.1 / V1.2)
+<br>
+
+- `Lilygo T-Beam (V1.1 / V1.2)`
 El "clásico" todo-en-uno que definió los inicios de la red.
    - Procesador: ESP32.
    - GPS: Módulo Neo-6M o Neo-M8N integrado.
    - Alimentación: Incluye un zócalo para batería 18650 en la parte posterior.
    - Características: Muy robusto y fácil de llevar en la mochila sin cajas externas complejas.
 
-- LILYGO® T-Lora Pager
+<br>
+
+- `LILYGO® T-Lora Pager`
    - MCU
       - ESP32-S3 (WiFi & Bluetooth 5 LE)
    - LoRa Transceiver
@@ -393,7 +427,9 @@ El "clásico" todo-en-uno que definió los inicios de la red.
    - TI Power Management Monitoring Chipset
    - ES8311 (microphone/speaker/headphone jack) Encoder + Keypad
 
-- LILYGO® T-Deck
+<br>
+
+- `LILYGO® T-Deck`
    - MCU
       - ESP32-S3FN16R8 (WiFi & Bluetooth 5 LE)
       - ESP32-C3 (For keyboard only)
@@ -404,22 +440,34 @@ El "clásico" todo-en-uno que definió los inicios de la red.
    - 2.8 inch ST7789 SPI Interface IPS LCD (Resolution: 320 x 240)
    - I2S Speaker/Microphone
 
+<br>
 
-- RAKwireless WisBlock (RAK4631)
+- `RAKwireless WisBlock (RAK4631)`
 Considerado el "estándar de oro" para nodos serios y estaciones solares.
    - Procesador: nRF52840 (Ultra bajo consumo).
    - Modularidad: Diseño tipo "LEGO"; puedes añadir sensores de clima, GPS o pantallas mediante módulos.
    - Características: Consume una fracción de la energía de los modelos ESP32.
 
-- Lilygo T-Echo
+<br>
+
+- `Lilygo T-Echo`
    - Procesador: nRF52840.
    - Pantalla: E-Ink (Tinta electrónica) de 1.54 pulgadas, visible bajo el sol.
    - Características: Incluye caja protectora, GPS y batería interna de fábrica.
 
-- Station G1 (Nano G1 Explorer)
+<br>
+
+- `Station G1 (Nano G1 Explorer)`
    - Procesador: ESP32.
    - Carcasa: Aleación de aluminio robusta.
    - Características: Conector SMA para antena externa de alta ganancia y puerto USB-C frontal.
+
+<br>
+
+## ⚖️ Disclaimer
+No soy responsable de los links compartidos en este repositorio frente alguna problematica con los distribuidores de los mismos. Abrirlos y utilizarlos bajo su propio cuidado y responsabilidad. 
+
+Solo comparto los links que yo he utilizado bajo mi propia responsabilidad y supervision durante la realizacion de proyectos con Meshtastic.
 
 <br>
 
