@@ -205,7 +205,7 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
 
      Solar Panel Connection diagram
    
-   - `Baterías LiPo/Li-ion`: Soporta celdas de 3.7V. Es posible escalar desde la estándar de 800-1100mAh hasta celdas 18650 o 21700 de 5000mAh para autonomía extendida.
+   - `Baterías LiPo/Li-ion`: It supports 3.7V cells. It is possible to scale from the standard 800-1100mAh to 18650 or 21700 cells of 5000mAh for extended runtime.
    
         - `Circuito de Protección (PCM/BMS) para baterias LiPo` (En algunos casos): Muchas LiPo vienen "desnudas". Se necesita que tengan una pequeña plaquita en la punta con los chips DW01 y 8205A.
              Función: Corta la energía si el voltaje baja de 2.4V (evita que la batería muera permanentemente) o si hay un cortocircuito.
