@@ -212,7 +212,7 @@ Function: Cuts off power if the voltage drops below 2.4V (preventing the battery
 
         - `Termistor NTC` (Optional but recommended): If the node will be in the sun (inside a box or structure), the heat can be dangerous. Some chargers have a "TEMP" pin that, when connected to a thermistor attached to the battery, stops charging if the temperature exceeds 45°C - 50°C.
         
-        - `Conectores JST-PH` (2.0mm) o `SH` (1.25mm): Asegurarse de que la polaridad sea la correcta. Dato vital: El estándar de cables rojo/negro en baterías chinas a veces viene invertido respecto a lo que esperan las placas Heltec o Seeed. Medir con multímetro antes de enchufar.
+        - `Conectores JST-PH` (2.0mm) o `SH` (1.25mm): Ensure the polarity is correct. Important note: The red/black wire standard on Chinese batteries is sometimes reversed compared to what Heltec or Seeed boards require. Measure with a multimeter before plugging in.
    
 - ***Sensores via I2C:***
    - `BME280 / BME680`: Para medir temperatura, humedad, presión atmosférica y (en el caso del 680) calidad del aire. Es ideal para estaciones meteorológicas remotas.
