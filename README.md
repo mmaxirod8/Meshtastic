@@ -220,9 +220,9 @@ Function: Cuts off power if the voltage drops below 2.4V (preventing the battery
    - `SHT31`: A high-precision alternative for temperature and humidity.
    
 - ***Mejoras de RF (Antenas y Conectores):***
-La antena de "resorte" que suele venir de fábrica es limitada. Para mejorar el alcance:
-   - `Pigtail IPEX (U.FL) a SMA`: Permite usar antenas externas de mayor ganancia.
-   - `Antenas Dipolo o Fibra de Vidrio`: Si el nodo será fijo (Router), una antena de 3dBi a 5dBi optimizada para la frecuencia de tu zona (típicamente 915MHz en Argentina) marcará una diferencia notable en el radio de cobertura.
+The factory-installed "spring" antenna is limited. To improve range:
+   - `Pigtail IPEX (U.FL) a SMA`: It allows the use of higher gain external antennas.
+   - `Antenas Dipolo o Fibra de Vidrio`: If the node will be fixed (Router), a 3dBi to 5dBi antenna optimized for the frequency of your area (typically 915MHz in Argentina) will make a noticeable difference in the coverage radius.
    
 - ***Interfaz de Usuario y Alertas:***
    - `Buzzer Pasivo`: Se puede configurar un buzzer para recibir alertas sonoras cuando llegue un mensaje o un nodo nuevo se una a la red.
