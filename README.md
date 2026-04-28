@@ -219,7 +219,7 @@ Function: Cuts off power if the voltage drops below 2.4V (preventing the battery
    - `INA219`: Useful if you plan to monitor voltage and current consumption, especially in solar installations.
    - `SHT31`: A high-precision alternative for temperature and humidity.
    
-- ***Mejoras de RF (Antenas y Conectores):***
+- ***RF Upgrades (Antennas & Connectors):***
 The factory-installed "spring" antenna is limited. To improve range:
    - `Pigtail IPEX (U.FL) a SMA`: It allows the use of higher gain external antennas.
    - `Antenas Dipolo o Fibra de Vidrio`: If the node will be fixed (Router), a 3dBi to 5dBi antenna optimized for the frequency of your area (typically 915MHz in Argentina) will make a noticeable difference in the coverage radius.
