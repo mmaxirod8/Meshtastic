@@ -287,7 +287,7 @@ La antena de "resorte" que suele venir de fábrica es limitada. Para mejorar el 
           <p align="center">
          <img width="1570" height="872" alt="image" src="https://github.com/user-attachments/assets/998a0114-7e0a-4791-bbb7-626decdafb11" />
            </p>
-        --> Finally, once this is done, a file will be downloaded. Copy this file to the folder created by the Meshtastic device when you connect it to your PC (it appears as a disk). It's normal for the transfer to take a little while and for the board to restart. And that's it! Your Meshtastic board is now flashed and ready to use and configure.
+        --> Finally, once this is done, a file will be downloaded. Copy this file to the folder created by the Meshtastic device when you connect it to your PC (it appears as a disk). It's normal for the transfer to take a little while and for the board to restart. And that's it! ✅ Your Meshtastic board is now flashed and ready to use and configure.
 
    - ***Optional step [Once the board has been flashed, it can be disconnected from the PC]***    
    - After that, to obtain the Meshtastic configuration software, we will download the Meshtastic app from the Play Store on our mobile phone, or we can directly access it from our PC at: https://client.meshtastic.org
