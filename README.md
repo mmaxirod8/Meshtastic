@@ -153,7 +153,7 @@ In short, what is `OSINT`? --> `Open Source Intelligence` (OSINT) is the legal c
 
 What does this mini-challenge consist of? You will put yourself in the shoes of an OSINT agent and must find, using any tool or site you can think of on the internet (and that is legal, obviously), `2 Meshtastic devices` that are being used by a cybercriminal group called `FSociety` (yes, Mr. Robot reference) to communicate with each other, and orchestrate attacks on data centers in certain locations in Argentina and Uruguay.
 
-***NOTE***: The challenge is in Spanish, but you can translate it and complete it without needing a Meshtastic node. All you need is a device you can use to access the form and a strong desire to have fun.!
+***NOTE***: The challenge is in Spanish, but you can translate it and complete it without needing a Meshtastic node. You don't need to answer the questions in Spanish. All you need is a device you can use to access the form and a strong desire to have fun!
 
 👉 https://forms.gle/bTwt6tVbDUNSLwcEA
 
